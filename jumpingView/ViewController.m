@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) CAShapeLayer *jumpingLayer;
@@ -20,11 +21,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.title = @"CAShapeLayer动画效果";
 }
 
 - (void)viewWillLayoutSubviews {
-    self.jumpingView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 70, 80)];
+    self.jumpingView = [[UIView alloc] initWithFrame:CGRectMake(150, 150, 70, 80)];
     self.jumpingView.backgroundColor = [UIColor redColor];
     [self.view addSubview:self.jumpingView];
     CGPoint point1 = CGPointMake(60, 5.f);
@@ -60,6 +61,11 @@
     [self.jumpingLayer2 removeAnimationForKey:@"jumping"];
     [self.jumpingLayer3 removeAnimationForKey:@"jumping"];
 }
+
+- (IBAction)otherImpBtnClick:(id)sender {
+    [self.navigationController pushViewController:[SecondViewController new] animated:YES];
+}
+
 - (CAShapeLayer *)createLineLayer:(CGPoint)fromPoint toPoint:(CGPoint)toPoint withColor:(UIColor *)color {
     
     UIBezierPath *path = [UIBezierPath bezierPath];

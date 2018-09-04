@@ -13,6 +13,7 @@
 		086F87BF212D6B1D001B7677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086F87BE212D6B1D001B7677 /* Assets.xcassets */; };
 		086F87C2212D6B1D001B7677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086F87C0212D6B1D001B7677 /* LaunchScreen.storyboard */; };
 		086F87C5212D6B1D001B7677 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 086F87C4212D6B1D001B7677 /* main.m */; };
+		08F6D04D213D3AFE00C2FF16 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F6D04C213D3AFE00C2FF16 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		086F87C1212D6B1D001B7677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		086F87C3212D6B1D001B7677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		086F87C4212D6B1D001B7677 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08F6D04B213D3AFE00C2FF16 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		08F6D04C213D3AFE00C2FF16 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				086F87B6212D6B1B001B7677 /* AppDelegate.m */,
 				086F87B8212D6B1B001B7677 /* ViewController.h */,
 				086F87B9212D6B1B001B7677 /* ViewController.m */,
+				08F6D04B213D3AFE00C2FF16 /* SecondViewController.h */,
+				08F6D04C213D3AFE00C2FF16 /* SecondViewController.m */,
 				086F87BB212D6B1B001B7677 /* Main.storyboard */,
 				086F87BE212D6B1D001B7677 /* Assets.xcassets */,
 				086F87C0212D6B1D001B7677 /* LaunchScreen.storyboard */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F6D04D213D3AFE00C2FF16 /* SecondViewController.m in Sources */,
 				086F87BA212D6B1B001B7677 /* ViewController.m in Sources */,
 				086F87C5212D6B1D001B7677 /* main.m in Sources */,
 				086F87B7212D6B1B001B7677 /* AppDelegate.m in Sources */,
@@ -285,6 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = jumpingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = jumpingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
